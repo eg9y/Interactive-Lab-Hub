@@ -88,73 +88,46 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 
 \*\***Include pictures of your storyboards here**\*\*
 1. Starting the Cook
-
-Scene: Cook places the pot on the stove.
-Device Action: Device lights up blue to indicate "cooking timer started".
-Goal: Confirm that cooking has begun and the device is active.
-
-<img width="322" height="315" alt="image" src="https://github.com/user-attachments/assets/575ba86e-5053-426d-bcaa-c3c9cb552ad1" />
-
+- **Scene:** Cook places the pot on the stove.
+- **Device Action:** Device lights up blue to indicate "cooking timer started".
+- **Goal:** Confirm that cooking has begun and the device is active.
 
 2. Boiling Stage
-
-Scene: Water in the pot starts bubbling.
-Device Action: Device glows bright yellow to show "boiling/simmering".
-Goal: Alert the cook without sound, so they know they can reduce heat or add ingredients.
-
-<img width="309" height="306" alt="image" src="https://github.com/user-attachments/assets/c2e4c578-f960-48fc-8351-0e29e4aff9a0" />
-
-
+- **Scene:** Water in the pot starts bubbling.
+- **Device Action:** Device glows bright yellow to show "boiling/simmering".
+- **Goal:** Alert the cook without sound, so they know they can reduce heat or add ingredients.
 
 3. Stir Reminder
-
-Scene: Cook gets distracted checking their phone.
-Device Action: Device pulses orange every 30 seconds as a reminder to stir.
-Goal: Prevent food from sticking/burning. 
-
-<img width="290" height="290" alt="image" src="https://github.com/user-attachments/assets/9a243786-4a9e-4004-b56e-46069e0e3e01" />
-
+- **Scene:** Cook gets distracted checking their phone.
+- **Device Action:** Device pulses orange every 30 seconds as a reminder to stir.
+- **Goal:** Prevent food from sticking/burning. 
 
 4. Cooking Done
-Scene: Dish finishes simmering.
-Device Action: Device turns green with a steady glow.
-Goal: Notify cook that the food is ready.
+- **Scene:** Dish finishes simmering.
+- **Device Action:** Device turns green with a steady glow.
+- **Goal:** Notify cook that the food is ready.
 
-<img width="315" height="307" alt="image" src="https://github.com/user-attachments/assets/3e6b2ac2-5848-483a-9df7-1e3ebe9556ae" />
+5. Overcooking Alert
+- **Scene:** Cook forgets to remove the pot.
+- **Device Action:** Device flashes red quickly to warn that cooking has gone too long.
+- **Goal:** Prevent burning or overcooking.
 
+6. Family Member Interaction
+- **Scene:** A family member walks in and taps the device to see how long the food will take.
+- **Device Action:** Device shows the progress by white light flashing frequency (e.g., the faster, the less time it will take to finish).
+- **Goal:** Let others understand cooking status at a glance.
 
-6. Overcooking Alert
-Scene: Cook forgets to remove the pot.
-Device Action: Device flashes red quickly to warn that cooking has gone too long.
-Goal: Prevent burning or overcooking.
+7. End-of-Day Reset
+- **Scene:** Cook finishes dinner, cleans up the kitchen.
+- **Device Action:** Device slowly fades from green → blue → off, signaling the timer is reset.
+- **Goal:** Give closure to the cooking session and be ready for next use.
 
-<img width="280" height="274" alt="image" src="https://github.com/user-attachments/assets/9f57219b-aa17-48df-82f4-85a682011c68" />
+<img width="590" height="322" alt="image" src="https://github.com/user-attachments/assets/3578827b-284f-40cc-b77b-b113947907b1" />
 
-
-
-8. Family Member Interaction
-Scene: A family member walks in and taps the device to see how long the food will take.
-Device Action: Device shows the progress by white light flashing frequency (e.g., the faster, the less time it will take to finish).
-Goal: Let others understand cooking status at a glance.
-
-<img width="250" height="246" alt="image" src="https://github.com/user-attachments/assets/9a26736c-c856-4aa4-a234-062437dfdec5" />
-
-
-
-10. End-of-Day Reset
-Scene: Cook finishes dinner, cleans up the kitchen.
-Device Action: Device slowly fades from green → blue → off, signaling the timer is reset.
-Goal: Give closure to the cooking session and be ready for next use.
-
-<img width="322" height="315" alt="image" src="https://github.com/user-attachments/assets/ccd748bf-df45-456c-b757-ba9be30453cd" />
-
-
-Mason Jar Storyboard:
+Alternative Mason Jar Storyboard:
 
 <img width="581" height="705" alt="image" src="https://github.com/user-attachments/assets/c25814a3-8a3b-4604-8a8c-48027d8e5324" />
 
-
-<img width="590" height="322" alt="image" src="https://github.com/user-attachments/assets/3578827b-284f-40cc-b77b-b113947907b1" />
 
 
 
